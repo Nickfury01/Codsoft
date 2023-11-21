@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+	  background-image: url('header.webp');
+	  background-size: cover;
+    background-color: #333;
+    color: rgb(246, 152, 11);
+    text-align: center;
+    padding: 20px;
+}
+
+    header h1 {
+      margin: 0;
+    }
+
+    .bio {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2em;
+    }
+
+    #skills {
+    background-color: #fff;
+    padding: 50px;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.skill-info {
+    flex-grow: 1;
+}
+
+.skill-bar {
+    flex-grow: 2;
+    background-color: #ddd;
+    height: 15px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 100%;
+    background-color:lightseagreen;
+    border-radius: 5px;
+    transition: width 1s ease-in-out;
+}
+#projects {
+    padding: 50px;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+#resume {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+#contact {
+    padding: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+    .info{
+      background-color: #800000; /* Background color */
+      color: white; /* Text color */
+      padding: 10px; /* Padding to provide space around the text */
+      width: fit-content;
+      margin-left: 650px;
+      border-radius: 15px;
+    }
+  </style>
+  <title>Portfolio</title>
+</head>
+<body>
+  <header>
+    <div class="info">
+      <center><h1>S SRIVATSA</h1>
+    <p>Information Science and Engineering Student</p>
+    </center>
+  </div>
+  </header>
+
+  <div class="bio">
+    <img src="about-image.jpg" alt="About Image" style="max-width: 300px; margin-right: 2em;">
+    <div>
+      <h2>About Me</h2>
+      <p><b>
+        Hello! I'm S Srivatsa, a passionate individual with a deep love for problem-solving and a keen interest in designing innovative and 
+				user-centric websites. My enthusiasm for web development goes hand in hand with a relentless eagerness to learn and a remarkable ability
+				to quickly grasp new concepts. With a foundation built on both analytical thinking and creative design, I thrive on challenges,
+				constantly seeking opportunities to enhance my skills and contribute fresh ideas to the ever-evolving world of web development
+        </b>
+      </p>
+    </div>
+  </div>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skill">
+        <div class="skill-info">
+            <p>Problem Solving</p>
+            <p>80% Efficiency</p>
+        </div>
+        <div class="skill-bar">
+            <div class="skill-level" style="width: 80%;"></div>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="skill-info">
+            <p>Java</p>
+            <p>90% Efficiency</p>
+        </div>
+        <div class="skill-bar">
+            <div class="skill-level" style="width: 90%;"></div>
+        </div>
+    </div>
+<div class="skill">
+        <div class="skill-info">
+            <p>HTML</p>
+            <p>70% Efficiency</p>
+        </div>
+        <div class="skill-bar">
+            <div class="skill-level" style="width: 70%;"></div>
+        </div>
+    </div>
+<div class="skill">
+        <div class="skill-info">
+            <p>JavaScript</p>
+            <p>70% Efficiency</p>
+        </div>
+        <div class="skill-bar">
+            <div class="skill-level" style="width: 70%;"></div>
+        </div>
+    </div>
+<div class="skill">
+        <div class="skill-info">
+            <p>CSS</p>
+            <p>70% Efficiency</p>
+        </div>
+        <div class="skill-bar">
+            <div class="skill-level" style="width: 70%;"></div>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="project">
+      <img src="p1.png" alt="Project 1" height="150px" width="150px">
+      <div class="project-info">
+          <h3>Landing Page</h3>
+          <p>Designed a landing page for a leading Footwear company named 'Schaffuer Shoes'<br>
+    Tools used: HTML,CSS,Visual studio code
+  </p>
+      </div>
+  </div>
+  <div class="project">
+      <img src="p2.png" alt="Project 2" height="150px" width="150px">
+      <div class="project-info">
+          <h3>Calculator</h3>
+          <p>Designed a responsive fully functional simple calculator<br>
+    Tools used: HTML,CSS,JavaScript,Visual studio code
+  </p>
+      </div>
+  </div>
+  <!-- Add more projects as needed -->
+</section>
+
+<!-- Resume Section -->
+<section id="resume">
+  <h2>Resume</h2>
+  <p>Download my resume </p>
+<br>
+<a id="resume-button" href="your-resume.pdf" target="_blank">Resume</a>
+
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email:srivatsa.0717@gmail.com</p>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2023 Nickfury. All rights reserved. | <a href="#">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>
